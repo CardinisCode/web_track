@@ -1,0 +1,47 @@
+/* Side bar menu */
+.topbar_list
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topbar_options
+{
+    float: left;
+}
+
+.topbar_link
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* To change colour when hovered over */
+li a:hover
+{
+    background-color: #111;
+}
+
+.active
+{
+    background-color: #4caf50;
+}
+
+p
+{
+    text-align: justify;
+    line-height: 1.8;
+
+}
+
+.body_padding
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
