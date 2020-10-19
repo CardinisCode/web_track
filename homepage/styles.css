@@ -1,21 +1,20 @@
 /* Side bar menu */
-.topbar_list
+.navbar_list
 {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow: scroll;
     background-color: #333;
-    position: fixed;
     width: 100%;
 }
 
-.topbar_options
+.navbar_options
 {
     float: left;
 }
 
-.topbar_link
+.navbar_link
 {
     display: block;
     color: white;
@@ -24,15 +23,26 @@
     text-decoration: none;
 }
 
+/* a:link
+{
+    color: #B8F2E6;
+    background-color: transparent;
+    text-decoration: none;
+} */
+
+
+
 /* To change colour when hovered over */
 li a:hover
 {
-    background-color: #111;
+    background-color: #5E6472;
 }
+
+
 
 .active
 {
-    background-color: #4caf50;
+    background-color: #AED9E0;
 }
 
 p
@@ -51,4 +61,45 @@ p
 h1
 {
     text-align: center;
+    padding: 10px;
+}
+
+body
+{
+    background-color: #FAF9F9;
+}
+
+.sidenav
+{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a 
+{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    /* font-size: 25px; */
+    color: #5E6472; 
+    display: block;
+}
+
+.sidenav a:hover 
+{
+    color: #f07167; 
+    background-color: #5E6472;
+
+}
+
+.main
+{
+    margin-left: 160px;
+    padding: 0px 10px;
 }
