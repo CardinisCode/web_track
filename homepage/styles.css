@@ -1,7 +1,11 @@
 p
 {
     line-height: 1.8;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    text-align: justify;
+    font-size: 18px;
+
 }
 
 /* .body_padding
@@ -18,11 +22,18 @@ h1
     
 }
 
+h2
+{
+    text-align: center;
+    color: #0f4c5c;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
 body
 {
     background-color: #FAF9F9;
     /* margin-left: 10px; */
-    text-align: justify;
+    
 }
 
 .topnav
@@ -121,9 +132,28 @@ img
 }
 
 
-/* 
-iframe
+.button
 {
-    width: 400;
-    height: 200;
-} */
+    font: bold 11px Arial; 
+    text-decoration: none;
+    padding: 2px 6px 2px 6px; 
+    border: 1px solid red; 
+    /* border-right:  */
+
+}
+
+.list-group-item:hover
+{
+    background-color: #cbf3f0;
+    font-size: 18px;
+}
+
+ol
+{
+    font-size: 18px;
+}
+
+.w-100 {
+    width: 100% !important;
+    height: 100%;
+  }
