@@ -93,7 +93,8 @@ footer
 h1
 {
     text-align: center;
-    padding: 10px;
+    padding-top: 10pxi;
+    /* padding: 10px; */
     color: #0f4c5c;
     
 }
@@ -115,7 +116,7 @@ h3
 {
     color: #0f4c5c;
     font-family: Montserrat, Arial, Sans Serif;
-    padding: 10px;
+    /* padding: 10px; */
     padding-top: 10px;
 }
 
@@ -262,17 +263,37 @@ figcaption
     padding: 10px;
 }
 
+
 .darknet-diaries
+{
+    border: none;
+}
+
+.darknet-diaries a
 {
     background-color: black;
     color: white;
-    padding: 4px;
+    padding: 10px;
+    
 }
 
-.darknet-diaries:hover
+.darknet-diaries a:hover
 {
     color: red;
 }
+
+hr
+{
+    width: 100%;
+    border-color: rgb(200,200, 200);
+}
+
+.heading-br
+{
+    width: 30%;
+    /* border-color: blueviolet; */
+}
+
 
 
 
