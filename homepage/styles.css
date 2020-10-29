@@ -1,18 +1,94 @@
-p
+.topnav
 {
-    line-height: 1.8;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-    font-family:"Comic Sans MS", cursive, sans-serif;
-    text-align: justify;
-    font-size: 18px;
+    /* height: 100%; */
+    background-color: #333;
+    overflow: hidden;
+    color: #D3D3D3;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+.topnav a
+{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* color: #5E6472; */
+    display: block;
+    float: right;
+    text-align: right;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.topnav:hover 
+{
+    color: #0f4c5c; 
+    /* background-color: rgb(180,180,180); */
+    display: block;
+    text-decoration: none;
+} 
+
+.topnav a.active
+{
+    background-color: #AED9E0;
+    color: #0f4c5c;
+}
+
+a
+{
+    color: blue;
+}
+
+a:hover
+{
+    color: #0f4c5c;
+    text-decoration: none;
 
 }
 
-/* .body_padding
+.topnav-items
 {
+    color: white;
+}
+
+.topnav-items:hover
+{
+    color: white;
+    background-color: #0f4c5c;
+    display: block;
+}
+
+
+body
+{
+    background-color: #FAF9F9;
+    /* margin-left: 10px; */
+    
+}
+
+.main
+{
+    margin-left: 150px; 
+    margin-right: 150px;
+    /* padding: 0px 10px; */
+    font-family: Montserrat, Arial, Sans Serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+footer
+{
+    /* margin-left: 0px;  */
+    /* left: 0px; */
+    padding-bottom: 20px;
     padding-left: 10px;
-    padding-right: 10px;
-} */
+    width: 100%;
+    background-color: #bee3db;
+    color: #0f4c5c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
 
 h1
 {
@@ -26,72 +102,40 @@ h2
 {
     text-align: center;
     color: #0f4c5c;
-    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-family: Montserrat, Arial, Sans Serif;
+    /* font-family:"Comic Sans MS", cursive, sans-serif; */
 }
 
-body
+h3
 {
-    background-color: #FAF9F9;
-    /* margin-left: 10px; */
-    
-}
-
-.topnav
-{
-    /* height: 100%; */
-    background-color: #333;
-    overflow: hidden;
-    /* margin: 0; */
-    /* padding: 0; */
-}
-
-.topnav a
-{
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #5E6472;
-    display: block;
-    float: right;
-    text-align: right;
-    padding: 14px;
-    text-decoration: none;
-}
-
-.topnav a:hover 
-{
-    color: #0f4c5c; 
-    background-color: #5E6472;
-} 
-
-.topnav a.active
-{
-    background-color: #AED9E0;
-}
-
-.main
-{
-    margin-left: 150px; 
-    margin-right: 150px;
-    /* padding: 0px 10px; */
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-footer
-{
-    /* margin-left: 0px;  */
-    /* left: 0px; */
-    padding-bottom: 20px;
-    width: 100%;
-    background-color: #bee3db;
-    color: #0f4c5c;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
-/* .footer_author
+.heading-format
 {
-    position: relative;
-} */
+    color: #0f4c5c;
+    font-family: Montserrat, Arial, Sans Serif;
+    padding: 10px;
+    padding-top: 10px;
+}
+
+p
+{
+    line-height: 1.8;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /* font-family:"Comic Sans MS", cursive, sans-serif; */
+    font-family: Montserrat, Arial, Sans Serif;
+    text-align: justify;
+    font-size: 18px;
+
+}
+
+.photo-header
+{
+    text-align: center;
+}
+
+
 
 i
 {
@@ -157,3 +201,78 @@ ol
     width: 100% !important;
     height: 100%;
   }
+
+/* .card {display:inline-block;} */
+
+.card
+{
+    /* max-width: 300px; */
+    margin: auto;
+    text-align: center;
+    
+}
+
+.card:hover
+{
+    box-shadow: 0 8px 16px 0 #cbf3f0;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #cbf3f0;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+.card button:hover {
+    opacity: 0.7;
+    color: #0f4c5c;
+  }
+
+.image-box
+{
+    border: 1px #cccccc solid;
+    /* padding: 4px;  */
+    margin: auto;
+}
+
+.figure-img
+{
+    width: 30%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption
+{
+    text-align: center;
+    color: #0f4c5c;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.card-text
+{
+    padding: 10px;
+}
+
+.darknet-diaries
+{
+    background-color: black;
+    color: white;
+    padding: 4px;
+}
+
+.darknet-diaries:hover
+{
+    color: red;
+}
+
+
+
