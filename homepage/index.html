@@ -12,6 +12,11 @@
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
         <link href="styles.css" rel="stylesheet">
         <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <script> 
+            $('#myCollapsible').collapse({
+                toggle: true
+            })
+        </script>
 
     </head>
     <body>
@@ -22,7 +27,6 @@
             <a class="topnav-items" href="career_change.html">Career Change</a>
             <a class="topnav-items" href="music.html">Music</a>
             <a class="topnav-items" href="thingsIenjoy.html">Interests</a>
-            <a class="topnav-items" href="testing.html">Testing</a>
         </div>
         <!-- Main body of the page-->
         <div class="main">
@@ -30,7 +34,7 @@
             <hr class="heading-br">
             <p> 
                 I am Andrea Folgado, from Cape Town, South Africa, and I've lived in few countries including Spain & The UK. I have 3 families, across Portugal, South Africa, Switzerland, the UK and the US.
-                So I've moved to the UK to build a life here, with the hope I can spend more time with my family members on this side of the world. <a href="about.html">Read more...</a>
+                So I've moved to the UK to build a life here, with the hope I can spend more time with my family members on this side of the world. <a class="general_links" href="about.html">Read more...</a>
             </p>
             
             <p> 
@@ -40,7 +44,7 @@
 
             <h2 class="heading-format"> Cape Town</h2>
                 <p> Since I'm proudly Cape Tonian, it seems only fair that I start with my home city! We have beautiful beaches and we have sunshine three Quarters of the year. We have been known for our wines in Stellenbosch, but we also have craft wines, beers and ciders. Sorry to the English, but I just don't like their ciders sadly. So I've taken more to drinking beer since we've been here. One beer my partner and I really enjoy in Cape Town, is the CBC Amber Weiss - its a lovely combination of sweet and crisp, freshness. Sadly it's not common here.
-                    Early last year my partner accidentally discovered a really good pastry shop in Cape Town who also have realllly good coffee. If you're in Cape Town, definitely make a point to go to <a href="https://www.jasonbakery.co.za/"> Jason's bakery!</a> Their pastries were absolutely delicious and their coffee was so good, you want it black so you can taste all the flavours (Trust me on this one!). <strong> Warning:</strong> It's really addictive - you may end up going several times! 
+                    Early last year my partner accidentally discovered a really good pastry shop in Cape Town who also have realllly good coffee. If you're in Cape Town, definitely make a point to go to <a class="general_links" href="https://www.jasonbakery.co.za/"> Jason's bakery!</a> Their pastries were absolutely delicious and their coffee was so good, you want it black so you can taste all the flavours (Trust me on this one!). <strong> Warning:</strong> It's really addictive - you may end up going several times! 
                     One thing they do that I've found nowehere else: an almond croissant where the almond paste is in <strong>ALL</strong> the layers of the croissant - delivering a subtle but distinct almond taste that <strong>adds</strong> to the butter without overpowering it. I hate the almond paste being in the center because it becomes the only thing you taste. To make things better, they're not the only people offering really good coffee. We also have plenty craft coffees, jams, cheeses etc.
                 </p>
                 <p>  
@@ -62,17 +66,86 @@
                     It was a beautiful town to live in - not sure how things are at the moment. Wow, did it get humid!!! 
                     Fun times!
                 </p>
+                <hr>
 
+            <h2 class="heading-format"> A memory from each place I've visited</h2>
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-centre accordion-button" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            New York City
+                        </button>
+                        </h2>
+                    </div>
+              
+                    <div id="collapseOne" class="collapse toggle" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body accordion-styling">
+                            <p> 
+                                I stayed with my sister in New Jersey for 3 months (in 2008), and since she worked in Lower Manhattan, New York, I'd occassionally take the train with her to NY. I would walk around New York city and talk to local South Americans. Having just lived in Spain for almost a year, I could engage in conversation. Being a young 21 year old lady, able to speak Spanish, and friendly... let's just say they were over the moon in happiness! The plan was for me to stay in the US and find a college/Uni that would have me. 
+                                I was not in a great place at the time, since I'd just come out of a relationship with my first love. Plus I wasn't resourceful at the time, so I had no clue how to organize & secure a loan and to sort out the required paperwork that would allow me to legally stay in the US. 
+                            </p>
+                            <p>  
+                                My sister definitely made my 21st birthday epic. She really did spoil me! She took me to dinner, we went to another place for a drink, before going out to dance with her friends. I loved it :D Still remember how her friends encircled me to protect me from other people in the club. In hindsight, that was a fantastic idea and I definitely needed it. I was really naive at the time. 
+                                Since we split up and moved to 2 different countries as kids, we grew up apart. So those 3 months allowed us to spend personal time with each other, as adults. Although I wasn't in the best mental & emotional space, I'm definitely glad I had that opportunity!
+                            </p>
 
-            <h2 class="heading-format"> Places I've visited</h2>
-                <div class="list-group">
-                    <a href="" class="list-group-item list-group-item-action">New York City</a>
-                    <a href="" class="list-group-item list-group-item-action">Portugal</a>
-                    <a href="" class="list-group-item list-group-item-action">Switzerland</a>
+                        </div>
+                    </div>
                 </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-centre collapsed accordion-button" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Portugal
+                        </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body accordion-styling">
+                            <p>I've only been to Portugal twice though I only have memories of the 2nd trip. I do have a few memories of that time but they're a little vague since it was over 20 years ago. </p>
+                            <ul>
+                                <li> Staying in my Granparents' house. My grandmother cooked really delicious food and lots lots lots of it! LOL I also remmeber my late grandfather's snoring you heard across the house hehe. He was a sweetheart, kind and a great man.</li>
+                                <li> We travelled to a few parts of Portugal, with stay with different family members. My father's side of the family is really big! </li>
+                                <li> My cousin Corina spent a lot of time with me, and showed me around. I also met her God children (2 twins). I really enjoyed her personality and clicked well with her. </li>
+                                <li> My brother accidentally put his fingers in the gap at the back of the bedroom door. Since there was a big fuss around my younger brother, someone accidentally closed the door. The next thing you heard was a scream that rocked the 3 story apartment. For the rest of our trip, he had his hand in a white sock. </li>
+                                <li> I remember we had a lot of lipton ice tea LOL and a good share of ice cream at local cafes or at the beach. </li>
+                                <li> The beach was really close to where stayed, when staying in the apartment. On one side there were housing (with roads snaking inbetween) and on the other was this beautiful beach. So we spent a good share of time at the beach.</li>
 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-centre collapsed accordion-button btn-outline-info" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Switzerland
+                        </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body accordion-styling">
+                            <p style="text-align: justify;"> 
+                                I've been to Switzerland quite a few times over the years, since my uncle has lived in Switzerland for over 20 years. We've spent a few Christmas holidays in Switzerland, which is awesome because it gave us a white christmas. Ironically we often spent a good portion of that time indoors hehe. 
+                            </p>
+                            <p style="text-align: justify;"> Here a few memories I can share:</p>
+                            <ul style="text-align: justify;">
+                                <li> One year my father decided it would be really cool for us to drive to Switzerland - I think he was just trying to avoid having to fly there LOL. OMW that car trip... to give you an idea imagine 3 kids including 1 teenager and 2 adults struggling to get along. My dad even got lost once and ended up going around a roundabout a good handful of times LOL. This was before maps were available on your phone so people still relied on old school physical maps. Not sure I'd ever do that again hehe I'd be more than happy to fly anytime!</li>
+                                <li> Taking the train to the center of Zurich, and walking about between the houses and businesses. I can remember some of those pathways were cobblestoned and narrow, giving a lovely antigue look and vibe. </li>
+                                <li> My aunt would bake really delicious fresh bread whenever we were there. Her baking skills are amazing!</li>
+                                <li> We went ice skating which was cool but it terrified me. Knowing how easily you could lose your fingers was a terrifying concept to me, to mention I had no sense of balance LOL So my uncle held my hand and took me to the very center of the rink, and thankfully never let go LOL. I was both happy and anxious at the same time! I definitely appreciated how he made a point to make sure I felt included. He'd often strike up conversation with me and check in with me to see how I was doing. We still have a good relationship to this day. </li> 
+                            </ul>
+                        <!-- #3 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS. -->
+                        </div>
+                    </div>
+                </div>
+              </div>
 
         </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </body>
     <footer>
         <hr>
