@@ -266,13 +266,6 @@ button.accordion-button:hover
     cursor: pointer;
 }
 
-button.accordion-button:focus
-{
-    border-bottom-style: none;
-    text-decoration: none;
-    border-block-color: none;
-}
-
 .button-link {border: none;}
 
 .button-link a
