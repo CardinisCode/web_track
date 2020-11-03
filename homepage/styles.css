@@ -145,6 +145,11 @@ ol
     font-size: 18px;
 }
 
+li
+{
+    font-size: 18px;
+}
+
 .w-100 {
     width: 100% !important;
     height: 100%;
@@ -156,7 +161,6 @@ ol
     margin: 0;
     text-align: center;
     border: none;
-    
 }
 
 button
