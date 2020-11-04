@@ -229,28 +229,28 @@ figcaption
 }
 
 
-.darknet-diaries 
+.darknet-diaries
 {
     border: none;
     padding: 10px;
     background-color: black;
-    text-decoration: none;
+}
+
+.darknet-diaries:link
+{
     color: white;
+    background-color: black;
+}
+
+.darknet-diaries:visited
+{
+    outline-color: black;
 }
 
 .darknet-diaries:hover {
     color: red;
     background-color: black;
 }
-
-/* .darknet-diaries:active
-{
-    color: purple;
-    background-color: black;
-    text-decoration: none;
-    border: none;
-} */
-
 
 hr
 {
