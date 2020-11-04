@@ -72,6 +72,11 @@ footer
     background-color: #bee3db;
     color: #0f4c5c;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.footer_text
+{
     text-align: center;
 }
 
@@ -87,10 +92,10 @@ footer
 p
 {
     line-height: 1.8;
-    text-align: justify;
     font-size: 18px;
-
 }
+
+.text_justify {text-align: justify;}
 
 i
 {
@@ -167,7 +172,7 @@ button
     font: bold 20px Arial; 
     text-decoration: none;
     padding: 1px 4px 1px 4px; 
-    /* border: 1px solid red;  */
+    border: 1px solid red; 
     color: white;
 }
 
@@ -178,7 +183,7 @@ button:hover
 }
 
 
-.card button {
+/* .card button {
     border: none;
     outline: 0;
     padding: 12px;
@@ -193,7 +198,7 @@ button:hover
 .card button:hover {
     color: white;
     background-color: #167891;
-  }
+  } */
 
 .image-box
 {
@@ -224,20 +229,28 @@ figcaption
 }
 
 
-.darknet-diaries
+.darknet-diaries 
 {
     border: none;
     padding: 10px;
     background-color: black;
-}
-
-.darknet-diaries a {color: white;}
-
-.darknet-diaries a:hover
-{
-    color: red;
     text-decoration: none;
+    color: white;
 }
+
+.darknet-diaries:hover {
+    color: red;
+    background-color: black;
+}
+
+/* .darknet-diaries:active
+{
+    color: purple;
+    background-color: black;
+    text-decoration: none;
+    border: none;
+} */
+
 
 hr
 {
@@ -250,18 +263,15 @@ hr
 .accordion-styling
 {
     color: black;
-    text-align: justify;
 }
 
-button.accordion-button
-{
+button.accordion-button {
     color: black;
     text-decoration: none;
     margin: none;
 }
 
-button.accordion-button:hover
-{
+button.accordion-button:hover {
     color: white;
     background-color: #0f4c5c;
     text-decoration: none;
@@ -271,30 +281,23 @@ button.accordion-button:hover
 
 .button-link {border: none;}
 
-.button-link a
-{
+.button-link a {
     color: #0f4c5c;
     text-decoration: none;
     margin: none;
 }
 
-
-
-.button-link button:hover
-{
+.button-link button:hover {
     text-decoration: none;
     box-shadow: none;
     cursor: pointer;
-    
 }
 
-.button-link a:hover
-{
+.button-link a:hover {
     color: white;
 }
 
-.column
-{
+.column {
     float: left;
     width: 33.3%;
     margin-bottom: 16px;
@@ -306,6 +309,19 @@ button.accordion-button:hover
     .column {
       width: 100%;
       display: block;
+    }
+
+    i {
+        color: #0081a7;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .darknet-diaries
+    {
+        border: none;
+        padding: 5px;
+        background-color: black;
     }
 }
 
@@ -327,3 +343,7 @@ button.accordion-button:hover
     background-color: #555;
 }
 
+.contact-icons
+{
+    text-align: center;
+}
