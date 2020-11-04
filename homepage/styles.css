@@ -264,20 +264,45 @@ hr
     color: black;
 }
 
-button.accordion-button {
+.accordion-button {
     color: black;
     text-decoration: none;
-    margin: none;
     background-color: #cbf3f0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-weight: 400;
 }
 
-button.accordion-button:hover {
+.accordion-button:focus {
+    color: white;
+    background-color: #0f4c5c;
+}
+
+.accordion-button:hover {
     color: white;
     background-color: #0f4c5c;
     text-decoration: none;
-    box-shadow: none;
     cursor: pointer;
 }
+
+.accordion-btn_outline_info {
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.accordion-btn_outline_info:focus {
+    border: 1px solid #0f4c5c;
+}
+
+.accordion-btn_outline_info:hover {
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
 
 .button-link {border: none;}
 
