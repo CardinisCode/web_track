@@ -152,6 +152,7 @@ ol
 li
 {
     font-size: 18px;
+    padding-bottom: 15px;
 }
 
 .w-100 {
@@ -229,27 +230,25 @@ figcaption
 }
 
 
-.darknet-diaries
+
+.darknet-diaries_button
 {
     border: none;
     padding: 10px;
-    background-color: black;
-}
-
-.darknet-diaries:link
-{
     color: white;
     background-color: black;
+    border-radius: 3px;
 }
 
-.darknet-diaries:visited
+.darknet-diaries_button:visited
 {
     outline-color: black;
 }
 
-.darknet-diaries:hover {
+.darknet-diaries_button:hover {
     color: red;
     background-color: black;
+    text-decoration: none;
 }
 
 hr
@@ -269,6 +268,7 @@ button.accordion-button {
     color: black;
     text-decoration: none;
     margin: none;
+    background-color: #cbf3f0;
 }
 
 button.accordion-button:hover {
