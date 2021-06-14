@@ -82,11 +82,10 @@ footer
 
 .heading-format
 {
-    text-align: center;
     color: #0f4c5c;
     font-family: Montserrat, Arial, Sans Serif;
-    /* padding: 10px; */
     padding-top: 10px;
+    padding-bottom: 1%;
 }
 
 p
@@ -126,16 +125,19 @@ i:hover
 
 .image-blurred-edge
 {
-    box-shadow: 10px 8px,  white inset;
+    /* box-shadow: 10px 8px,  white inset; */
     border-color: aquamarine;
 }
 
-.center
-{
+.center {
     display: block;
     margin-left: auto;    
     margin-right: auto;
     width: 50%;
+}
+
+.center_heading {
+    text-align: center;
 }
 
 .list-group-item:hover
@@ -264,7 +266,7 @@ hr
     color: black;
 }
 
-.accordion-button {
+.button {
     color: black;
     text-decoration: none;
     background-color: #cbf3f0;
@@ -277,39 +279,45 @@ hr
     font-weight: 400;
 }
 
-.accordion-button:focus {
+.button:focus {
     color: white;
     background-color: #0f4c5c;
 }
 
-.accordion-button:hover {
+.button:hover {
     color: white;
     background-color: #0f4c5c;
     text-decoration: none;
     cursor: pointer;
 }
 
-.accordion-btn_outline_info {
+.btn_outline_info {
     border: 1px solid transparent;
     border-radius: .25rem;
 }
 
-.accordion-btn_outline_info:focus {
+.btn_outline_info:focus {
     border: 1px solid #0f4c5c;
 }
 
-.accordion-btn_outline_info:hover {
+.btn_outline_info:hover {
     border: 1px solid transparent;
     box-shadow: none;
 }
 
 
-.button-link {border: none;}
+.button-link {
+    border: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .button-link a {
     color: #0f4c5c;
     text-decoration: none;
-    margin: none;
+    
+    /* margin: auto; */
 }
 
 .button-link button:hover {
@@ -348,27 +356,23 @@ hr
         padding: 5px;
         background-color: black;
     }
-}
 
-.button
-{
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-}
-
-.button:hover
-{
-    background-color: #555;
+    .topnav a {
+        font-size: 12px;
+        padding: 12px;
+        text-decoration: none;
+    }
 }
 
 .contact-icons
 {
     text-align: center;
+}
+
+.w3css_confirmation {
+    border:0;
+    width:88px;
+    height:31px;
+    margin-left: auto;
+    margin-right: auto;
 }
